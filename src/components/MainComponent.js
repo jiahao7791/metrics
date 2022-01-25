@@ -69,8 +69,8 @@ class Main extends Component {
     }
 
     render() {
-        console.log("STATE")
-        console.log(this.state)
+        console.log("props")
+        console.log(this.props)
         const HomePage = () => {
             return (
                 <Home
