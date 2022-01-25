@@ -52,7 +52,7 @@ class Home extends Component {
         this.setState({ rSelected });
     }
     render() {
-
+        console.log("props",this.props)
         return (
             <div className="container">
                 <br/>
